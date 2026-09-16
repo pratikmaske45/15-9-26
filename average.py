@@ -1,1 +1,11 @@
-list = (1,2,3,4,5,6,7,8,9)
+list = (10,20,30,40,50)
+total =0
+length =0  
+for num in list:
+    total += num
+    length = length +1
+average = total/length
+print("average of given list is",average)
+
+
+
